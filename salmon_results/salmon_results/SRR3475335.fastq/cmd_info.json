@@ -1,0 +1,12 @@
+{
+    "salmon_version": "1.9.0",
+    "index": "reference/salmon_index/",
+    "threads": "8",
+    "libType": "A",
+    "mates1": "trimmed_reads/SRR3475335_1.fastq.gz",
+    "mates2": "trimmed_reads/SRR3475335_2.fastq.gz",
+    "output": "salmon_results/SRR3475335.fastq",
+    "seqBias": [],
+    "useVBOpt": [],
+    "auxDir": "aux_info"
+}
