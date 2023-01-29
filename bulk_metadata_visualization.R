@@ -1,8 +1,8 @@
 # reading in and visualization of bulk RNA-Seq dataset containing
 # normal and non-small cell lung carcinoma samples, available at 
 # https://www.ebi.ac.uk/gxa/experiments/E-GEOD-81089/Experiment%20Design
-# sequence reads were trimmed using fastp and mapped to the reference genome
-# using BWA. Much of this workflow follows the Harvard Chan Bioinformatics Core workshop
+# sequence reads were trimmed using fastp and mapped to a reference transcriptome 
+# using Salmon. Much of this workflow follows the Harvard Chan Bioinformatics Core workshop
 # available at https://hbctraining.github.io/DGE_workshop_salmon_online/schedule/links-to-lessons.html
 
 #https://hbctraining.github.io/DGE_workshop_salmon_online/lessons/01b_DGE_setup_and_overview.html  also has link to info on using raw counts rather than pseudocounts
