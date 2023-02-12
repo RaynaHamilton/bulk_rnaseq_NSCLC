@@ -1,2 +1,4 @@
 # bulk_rnaseq_NSCLC
 This repository demonstrates analysis of bulk RNA sequencing of three healthy and three non-small cell lung cancer samples, available from [this study](https://www.ebi.ac.uk/gxa/experiments/E-GEOD-81089/Experiment%20Design).  Sequence reads were first downloaded from NCBI SRA using fasterq-dump, quality trimmed using fastp, and mapped to a reference transcriptome using Salmon.  Downstream analysis in R involves normalization and differential expression analysis using DESeq2, gene annotation, GO enrichment and KEGG gene set enrichment analysis. This approach follows the Harvard Chan Bioinformatics Core workshop available [here](https://hbctraining.github.io/DGE_workshop_salmon_online/schedule/links-to-lessons.html).
+
+The intended script order is bulk_metadata_visualization.R --> DESeq_Wald.r --> annotation_GO_GSEA.r.
